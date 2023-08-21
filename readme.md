@@ -42,5 +42,3 @@ python test_tictactoe.py
 - Clean up documentation (Maybe I can create --help command)
 
 - Create tests for play_game function
-
-- Append Licansing
