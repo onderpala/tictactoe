@@ -190,9 +190,9 @@ class Game:
             print(f"\nRound {tour + 1}")
             self.display_game()
 
-            next = 0
+            next_game = 0
             
-            while next == False:
+            while next_game == False:
                 for player in self.players:
                     while True:
                         player_input = input(f"{player}, enter your move: ")
@@ -205,7 +205,7 @@ class Game:
                         self.player_won(player)
                         print(self.scores)
                         self.display_game()
-                        next = True
+                        next_game = True
                         self.board = reset_board
                         break  # If someone wins, end the round early
             
@@ -216,6 +216,6 @@ class Game:
 
 
 if __name__ == '__main__':
-    tour_limit = input('Tour limit: ')
+    tours = input('Tour limit: ')
     gm = Game()
-    gm.play_game(int(tour_limit))
+    gm.play_game(int(tours))
