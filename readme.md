@@ -10,7 +10,7 @@ This is classic Tic-Tac-Toe game implemented with Python. Tiktaktoe is a turn ba
 
 1. Clone the repository
 ```bash
-git clone https://github.com/...
+git clone https://github.com/onderpala/tictactoe
 ```
 2. Go to projects directory
 ```bash
