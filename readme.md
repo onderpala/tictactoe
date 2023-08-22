@@ -37,7 +37,7 @@ python test_tictactoe.py
 
 ## Roadmap
 
-- Clean up written tests creating a class for every function in my Game class
+- ~~Clean up written tests creating a class for every function in my Game class~~
 
 - Clean up documentation (Maybe I can create --help command)
 
